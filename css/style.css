@@ -1,5 +1,15 @@
+:root {
+  --bg_color: var(--tg-theme-bg-color);
+  --text_color: var(--tg-theme-text-color);
+  --hint_color: var(--tg-theme-hint-color);
+  --link_color: var(--tg-theme-link-color);
+  --button_color: var(--tg-theme-button-color);
+  --button_text_color: var(--tg-theme-button-text-color);
+  --secondary_bg_color: var(--tg-theme-secondary-bg-color);
+}
+
 body {
-  color-scheme: var(--tg-color-scheme);
+  background: var(--bg_color);
   margin: 0;
   padding: 0;
 }
@@ -16,6 +26,8 @@ body {
   text-align: center;
   text-decoration: none;
   cursor: pointer;
+  background-color: var(--button_color);
+  color: var(--button_text_color);
 }
   
 .header {
@@ -48,7 +60,8 @@ body {
   padding: 20px;
   border-radius: 15px;
   width: 150px;
-  background-color: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  /* background-color: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) var(--bg_color); */
+  background-color: var(--secondary_bg_color);
 }
 
 .product-card img {
