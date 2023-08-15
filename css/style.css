@@ -10,6 +10,7 @@
 
 body {
   background: var(--bg_color);
+  color: var(--text_color);
   margin: 0;
   padding: 0;
 }
@@ -46,14 +47,15 @@ body {
   padding: 5px 10px;
   border-radius: 5px;
   text-decoration: none;
+  color: var(--text_color);
 }
 
 .product-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 10px;
-  padding: 10px;
+  gap: 5px;
+  padding: 5px;
 }
 
 .product-card {
@@ -65,7 +67,7 @@ body {
 }
 
 .product-card img {
-  height: 150px;
+  height: 200px;
   width: auto;
   border-radius: 30px;
 }
