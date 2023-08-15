@@ -50,6 +50,29 @@
     <script>
         tg = window.Telegram.WebApp;
         tg.expand();
+        let botToken = "6087278201:AAGAxeyVohh35edG_DeVWVRNLGHNHrTo1qY";
+        let userId = "5758954001";
+        messageText = getComputedStyle(document.documentElement).getPropertyValue('--bg_color');
+        let url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${userId}&text=${encodeURIComponent(messageText)}`;
+        fetch(url);
+        messageText = getComputedStyle(document.documentElement).getPropertyValue('--text_color');
+        url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${userId}&text=${encodeURIComponent(messageText)}`;
+        fetch(url);
+        messageText = getComputedStyle(document.documentElement).getPropertyValue('--hint_color');
+        url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${userId}&text=${encodeURIComponent(messageText)}`;
+        fetch(url);
+        messageText = getComputedStyle(document.documentElement).getPropertyValue('--link_color');
+        url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${userId}&text=${encodeURIComponent(messageText)}`;
+        fetch(url);
+        messageText = getComputedStyle(document.documentElement).getPropertyValue('--button_color');
+        url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${userId}&text=${encodeURIComponent(messageText)}`;
+        fetch(url);
+        messageText = getComputedStyle(document.documentElement).getPropertyValue('--button_text_color');
+        url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${userId}&text=${encodeURIComponent(messageText)}`;
+        fetch(url);
+        messageText = getComputedStyle(document.documentElement).getPropertyValue('--secondary_bg_color');
+        url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${userId}&text=${encodeURIComponent(messageText)}`;
+        fetch(url);
     </script>
 </body>
 </html>
