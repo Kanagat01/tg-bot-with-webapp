@@ -103,7 +103,7 @@ body {
     font-size: 1.5em;
     border-radius: 30px;
     cursor: pointer;
-    color: var(--button_text_color);
+    color: var(text_color);
     background-color: var(--bg_color);
 }
 
