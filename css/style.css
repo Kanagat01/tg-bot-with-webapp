@@ -1,21 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Titillium+Web:wght@400;700&display=swap");
 
 :root {
-    /* --bg_color: var(--tg-theme-bg-color);
-  --text_color: var(--tg-theme-text-color);
-  --hint_color: var(--tg-theme-hint-color);
-  --link_color: var(--tg-theme-link-color);
-  --button_color: var(--tg-theme-button-color);
-  --button_text_color: var(--tg-theme-button-text-color);
-  --secondary_bg_color: var(--tg-theme-secondary-bg-color); */
+    --bg_color: var(--tg-theme-bg-color);
+    --text_color: var(--tg-theme-text-color);
+    --hint_color: var(--tg-theme-hint-color);
+    --link_color: var(--tg-theme-link-color);
+    --button_color: var(--tg-theme-button-color);
+    --button_text_color: var(--tg-theme-button-text-color);
+    --secondary_bg_color: var(--tg-theme-secondary-bg-color);
 
-    --bg_color: #1d2733;
+    /* --bg_color: #1d2733;
     --text_color: #ffffff;
     --hint_color: #7d8b99;
     --link_color: #5eabe1;
     --button_color: #50a8eb;
     --button_text_color: #ffffff;
-    --secondary_bg_color: #151e27;
+    --secondary_bg_color: #151e27; */
 }
 
 body {
